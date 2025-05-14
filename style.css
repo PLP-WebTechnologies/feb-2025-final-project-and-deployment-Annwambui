@@ -1,0 +1,185 @@
+/* Basic reset and styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Dark background for dark mode */
+  color: white; /* White text for contrast */
+}
+
+/* Header Styling */
+header {
+  background-color: #1c1c1c;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  color: gold;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #c9c9c9;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: gold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero img {
+  width: 100%;  /* Ensure the image takes full width of the container */
+  max-width: 1200px; /* Set a maximum width */
+  height: auto;  /* Maintain aspect ratio */
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+/* Post Section */
+.posts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+article {
+  width: 30%;
+  margin-bottom: 20px;
+  background-color: #2a2a2a; /* Dark background for posts */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-10px); /* Smooth hover effect */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+article img {
+  width: 100%;  /* Resize image to take full width of the post */
+  height: auto;
+  max-height: 400px;  /* Set a max height for posts */
+  border-radius: 8px;
+  object-fit: cover; /* Make sure the image doesn't get stretched or squished */
+}
+
+article h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  color: gold;
+}
+
+article p {
+  font-size: 1em;
+  color: #dcdcdc;
+  margin-top: 10px;
+}
+
+/* About Section */
+.about-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #1c1c1c;
+}
+
+.about-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  color: gold;
+}
+
+.about-section p {
+  font-size: 1.2em;
+  color: #dcdcdc;
+  margin-top: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 40px;
+  background-color: #1c1c1c;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  color: gold;
+}
+
+.contact-section p {
+  font-size: 1.2em;
+  color: #dcdcdc;
+}
+
+.email-link {
+  font-size: 1.5em;
+  color: gold;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input, form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #333;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: gold;
+  color: black;
+  padding: 15px 30px;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #ffcc00;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1c1c1c;
+  color: #dcdcdc;
+}
